@@ -1,0 +1,84 @@
+Git_Github
+========================================================
+author: Erik Bülow
+date: 2020-03-10
+autosize: true
+
+
+Bakgrund
+========================================================
+
+- Versionshantering
+- Linus Torvslds/Linuxkärnan
+- Decentralicerat
+
+Git
+========================================================
+- Terminalbaserat
+- Finns flera GUI (t ex GitHub Desktop)
+- Finns integrerat stöd i RStudio
+
+GitHub
+========================================================
+- Startade som eget företag. Ägs nu av Microsoft.
+- Gratis för öppen källkod samt slutna repon med få användare
+- Ganska dyrt för större slutna projekt med mnga deltagare
+- Alternativ: Bitbucket, Gitlab ...
+
+
+Fördelar med GitHub
+========================================================
+- Centralicerade hubb
+- Enkelt att samarbete
+- Issues
+- Projekthantering
+- Hostar dokumentation/pakethemsidor etc
+- R-paketen `devtools/remotes` installerar lätt paket härifrån
+
+
+Grundläggande funktionalitet
+========================================================
+- Skapa repository (repo) för projekt (`git init`)
+- Lägg till filer till repot (`git add`)
+- Uppdatera till ny version med ändrade filer (`git commit`)
+- Kopiera befintligt repo (`git clone`)
+  - fork i GutHub
+- Föreslå ändringar till befintligt repo (`git merge`)
+  - pull requests i Github
+
+Kom igång
+========================================================
+- Installera om möjligt Git: https://git-scm.com/downloads
+- Ange sökväg i RSTudio: `Tools > Global Options > Git/SVN`
+- Skaffa GitHub-konto: github.com
+- Installera om möjligt GitHub Desktop: https://desktop.github.com/
+
+Testa jobba med repo
+========================================================
+- Klona detta repo: https://github.com/eribul/shpr_git
+- Öppna i RSTudio
+- Skapa en issue (#X) här: https://github.com/eribul/shpr_git/issues
+- Gör ändring som motsvarar denna issue!
+- Commita mha RSTudios "Git-panel" med meddelande inkl "Fix #X"
+- Försök "Pusha" tillbaka till GitHub
+
+Testa med `shprplotfun`
+========================================================
+- Be Erik ge admin-behörighet till github.com/swehip/
+- Chekca ut projektet via RSTudios projektmeny `New Project > Version Control > Git > ...`
+- Inspektera fil under `R/`.
+- Hitta ett fel att åtgärda
+- Skapa en issue
+- Fixa felet.
+- Uppdatera dokumentation
+- Höj versionsnumret
+- Uppdatera hemsida
+- Commmita med referens till issuen
+- Pusha!
+
+Läs mer
+========================================================
+- Git/GitHub av Jenny Brian: https://happygitwithr.com/
+- R-paket av Hadley Wickham: http://r-pkgs.had.co.nz/
+- Kapitell om Git/GitHub: http://r-pkgs.had.co.nz/git.html
+
